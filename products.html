@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="x-ua-compatible" content="ie=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"/>
+    <title>Cardcaptor Sakura</title>
+
+    <!--JS-->
+    <script src="js/jquery-3.0.0.min.js"></script>
+    <script src="js/cardcaptorsakura.js"></script>
+
+    <!--CSS-->
+    <link rel="stylesheet" href="css/unsemantic-grid-responsive-tablet.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+
+    <!--Fonts-->
+    <link href='https://fonts.googleapis.com/css?family=Ubuntu:400,500' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Cabin:400,600' rel='stylesheet' type='text/css'>
+
+    <!--Favicon-->
+    <link href="sakura.ico" rel="shortcut icon" type="image/x-icon">
+    <link href="images/sakura.png" rel="sakura">
+</head>
+<body>
+<div class="outer-wrap">
+	<div class="inner-wrap">
+		<div class="grid-container"><!-- Grid Wrapper -->
+
+			<div class="grid-100 grid-parent">
+				<div class="grid-30 tablet-grid-40 mobile-grid-100"><!-- Logo -->
+					<a href="index.html"><img src="images/logo.png"></a>
+				</div>
+
+				<div class="grid-70 tablet-grid-60 mobile-grid-100 grid-parent">
+					<div class="grid-100 tablet-grid-100 go-right"><!-- Welcome -->
+						<p>Welcome to Cardcaptor Sakura!</p>
+						<div class="hide-on-mobile">
+							<p><img src="images/sakura1.png" width="20px" height="20px"> Free shippping on all orders over $50<br>
+							<a href="#">See details &gt</a></p>
+						</div>
+					</div>
+
+					<div class="grid-100 tablet-grid-100 mobile-grid-100"><!-- Search -->
+						<input type="text" name="txtSearch" id="txtSearch" placeholder="Search...">
+					</div>
+				</div>
+
+					<div class="hide-on-desktop hide-on-tablet mobile-grid-100"><!-- Mobile Menu -->
+						<a href="#" class="toggle-nav"><img src="images/menu.png" width="20px" height="20px"> MENU</a>
+					</div>
+
+					<nav class="grid-100 tablet-grid-100"><!-- Navigation -->
+						<ul>
+							<li><a href="products.html">Products</a></li>
+							<li><a href="#">Wish List</a></li>
+							<li><a href="#">Cart</a></li>
+							<li><a href="#">Contact Us</a></li>
+							<li><a href="sign-in.html">Sign Out</a></li>
+						</ul>
+					</nav>
+				
+			</div>
+
+			<div class="grid-20 tablet-grid-20 hide-on-mobile"><!-- Filter -->
+				<div class="filter">
+					<h2>Categories</h2>
+						<ul>
+							<li><a href="#">All Categories</a></li>
+							<li><a href="#">Books</a></li>
+							<li><a href="#">Cards</a></li>
+							<li><a href="#">DVDs & Bluray</a></li>
+							<li><a href="#">Clothing</a></li>
+							<li><a href="#">Accessories</a></li>
+							<li><a href="#">Stationary</a></li>
+							<li><a href="#">Toys</a></li>
+						</ul>
+					<h2>Price</h2>
+						<ul>
+							<li><a href="#">Under $5</a></li>
+							<li><a href="#">$5 to $10</a></li>
+							<li><a href="#">$10 to $25</a></li>
+							<li><a href="#">$25 to $50</a></li>
+							<li><a href="#">$50 to $100</a></li>
+							<li><a href="#">$100 & Above</a></li>
+						</ul>
+				</div>
+			</div>
+
+	<div class="grid-80 tablet-grid-80 mobile-grid-100 grid-parent">
+		<div class="grid-40 tablet-grid-40 mobile-grid-40"><!-- Category -->
+		<h2>Cards</h2></div>
+		<div class="grid-60 tablet-grid-60 mobile-grid-60 go-right"><!-- Sort By -->
+		<p>Sort by 
+		<select>
+			<option value="">Popularity</option>
+			<option value="small">Alphabetically: A-Z</option>
+			<option value="medium">Alphabetically: A-Z</option>
+			<option value="large">Price: Low-High</option>
+			<option value="large">Price: High-Low</option>
+		</select></p></div>
+	</div>
+	
+	<div class="grid-80 tablet-grid-80 mobile-grid-100 grid-parent product"><!-- Products -->
+		
+			<div class="grid-33 tablet-grid-50 mobile-grid-90 mobile-prefix-5">
+				<p class="center"><img src="images/card1.png" width="80px" height="162px"></p><br>
+				<h3>The Love</h3>
+				<select>
+					<option value="x-small">X-Small</option>
+					<option value="small">Small</option>
+					<option value="medium">Medium</option>
+					<option value="large">Large</option>
+				</select>
+				<p>Get the Love card that Sakura made all on her own in the second movie...</p>
+				<div class="center">
+					<p>$1.49</p>
+					<input type="button" id="addToCart" value="Add to Cart">
+				</div>
+			</div>
+			<div class="grid-33 tablet-grid-50 mobile-grid-90 mobile-prefix-5">
+				<p class="center"><img src="images/card2.png" width="80px" height="162px"></p><br>
+				<h3>The Nothing</h3>
+				<select>
+					<option value="x-small">X-Small</option>
+					<option value="small">Small</option>
+					<option value="medium">Medium</option>
+					<option value="large">Large</option>
+				</select>
+				<p>The Nothing was the final Clow card that Sakura had to transform in T...</p>
+				<div class="center">
+					<p>$1.49</p>
+					<input type="button" id="addToCart" value="Add to Cart">
+				</div>
+			</div>
+			<div class="grid-33 tablet-grid-50 mobile-grid-90 mobile-prefix-5">
+				<p class="center"><img src="images/card3.png" width="80px" height="162px"></p><br>
+				<h3>The Hope</h3>
+				<select>
+					<option value="x-small">X-Small</option>
+					<option value="small">Small</option>
+					<option value="medium">Medium</option>
+					<option value="large">Large</option>
+				</select>
+				<p>Sakura's Love card and Clow's Nothing, both merged together to create...</p>
+				<div class="center">
+					<p>$1.49</p>
+					<input type="button" id="addToCart" value="Add to Cart">
+				</div>
+			</div>
+		
+			<div class="grid-33 tablet-grid-50 mobile-grid-90 mobile-prefix-5">
+				<p class="center"><img src="images/card4.png" width="80px" height="162px"></p><br>
+				<h3>The Twin</h3>
+				<select>
+					<option value="x-small">X-Small</option>
+					<option value="small">Small</option>
+					<option value="medium">Medium</option>
+					<option value="large">Large</option>
+				</select>
+				<p>The Twin card was caught by Li and his cousin, Meilin, after the enti...</p>
+				<div class="center">
+					<p>$1.49</p>
+					<input type="button" id="addToCart" value="Add to Cart">
+				</div>
+			</div>
+			<div class="grid-33 tablet-grid-50 mobile-grid-90 mobile-prefix-5">
+				<p class="center"><img src="images/card5.png" width="80px" height="162px"></p><br>
+				<h3>The Mirror</h3>
+				<select>
+					<option value="x-small">X-Small</option>
+					<option value="small">Small</option>
+					<option value="medium">Medium</option>
+					<option value="large">Large</option>
+				</select>
+				<p>Get the Mirror, a useful card Sakura uses to help take her place when...</p>
+				<div class="center">
+					<p>$1.49</p>
+					<input type="button" id="addToCart" value="Add to Cart">
+				</div>
+			</div>
+			<div class="grid-33 tablet-grid-50 mobile-grid-90 mobile-prefix-5">
+				<p class="center"><img src="images/card6.png" width="80px" height="162px"></p><br>
+				<h3>The Flower</h3>
+				<select>
+					<option value="x-small">X-Small</option>
+					<option value="small">Small</option>
+					<option value="medium">Medium</option>
+					<option value="large">Large</option>
+				</select>
+				<p>The Flower card is very convenient when Sakura needs a beautiful bouq...</p>
+				<div class="center">
+					<p>$1.49</p>
+					<input type="button" id="addToCart" value="Add to Cart">
+				</div>
+			</div>
+		
+			<div class="grid-33 tablet-grid-50 mobile-grid-90 mobile-prefix-5">
+				<p class="center"><img src="images/card7.png" width="80px" height="162px"></p><br>
+				<h3>The Song</h3>
+				<select>
+					<option value="x-small">X-Small</option>
+					<option value="small">Small</option>
+					<option value="medium">Medium</option>
+					<option value="large">Large</option>
+				</select>
+				<p>Madison's beautiful voice and song capture the attention of the Song ...</p>
+				<div class="center">
+					<p>$1.49</p>
+					<input type="button" id="addToCart" value="Add to Cart">
+				</div>
+			</div>
+			<div class="grid-33 tablet-grid-50 mobile-grid-90 mobile-prefix-5">
+				<p class="center"><img src="images/card8.png" width="80px" height="162px"></p><br>
+				<h3>The Little</h3>
+				<select>
+					<option value="x-small">X-Small</option>
+					<option value="small">Small</option>
+					<option value="medium">Medium</option>
+					<option value="large">Large</option>
+				</select>
+				<p>The Little card caused some big trouble when Sakura was shrunk down a...</p>
+				<div class="center">
+					<p>$1.49</p>
+					<input type="button" id="addToCart" value="Add to Cart">
+				</div>
+			</div>
+			<div class="grid-33 tablet-grid-50 mobile-grid-90 mobile-prefix-5">
+				<p class="center"><img src="images/card9.png" width="80px" height="162px"></p><br>
+				<h3>The Create</h3>
+				<select>
+					<option value="x-small">X-Small</option>
+					<option value="small">Small</option>
+					<option value="medium">Medium</option>
+					<option value="large">Large</option>
+				</select>
+				<p>Sakura's friend, Naoko gets her hand on the Create and suddenly all h...</p>
+				<div class="center">
+					<p>$1.49</p>
+					<input type="button" id="addToCart" value="Add to Cart">
+				</div>
+			</div>
+	</div>	
+
+		<div class="grid-80 prefix-20 tablet-grid-80 tablet-prefix-20 mobile-grid-100 center pages"><!-- Page Numbers -->
+			<hr><p>&ltPrevious 1 <a href="#">2 </a><a href="#">3 </a>... <a href="">Next&gt</a></p>
+		</div>
+
+	
+	<div class="grid-100 tablet-grid-100 mobile-grid-100"><!-- Footer -->
+		<hr>
+		<footer>
+			<small>Copyright © 1996-2016 CARDCAPTORSAKURA.COM. All rights reserved. <a href="#">Terms of Use</a> | <a href="#">Privacy Policy</a></small>
+		</footer>
+	</div>
+
+</div>
+</div>
+
+	<div class="bottom-bar"><!-- Bottom Bar -->
+		<img src="images/icon-phone.png"><img src="images/icon-email.png"><img src="images/icon-map.png"><img src="images/icon-check-out.png">
+	</div>
+
+</body>
+</html>

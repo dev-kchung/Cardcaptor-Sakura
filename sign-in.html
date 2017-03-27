@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="x-ua-compatible" content="ie=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"/>
+    <title>Cardcaptor Sakura</title>
+
+    <!--JS-->
+    <script src="js/jquery-3.0.0.min.js"></script>
+    <script src="js/cardcaptorsakura.js"></script>
+
+    <!--CSS-->
+    <link rel="stylesheet" href="css/unsemantic-grid-responsive-tablet.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+
+    <!--Fonts-->
+    <link href='https://fonts.googleapis.com/css?family=Ubuntu:400,500' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Cabin:400,600' rel='stylesheet' type='text/css'>
+
+    <!--Favicon-->
+    <link href="sakura.ico" rel="shortcut icon" type="image/x-icon">
+    <link href="images/sakura.png" rel="sakura">
+</head>
+<body>
+
+<div class="grid-container"><!-- Grid Wrapper -->
+
+	<div class="grid-40 prefix-30 tablet-grid-50 tablet-prefix-25 mobile-grid-100"><!-- Logo -->
+		<a href="index.html"><img src="images/logo.png"></a>
+	</div>
+
+	<div class="grid-40 prefix-30 tablet-grid-50 tablet-prefix-25 mobile-grid-100 sign-in"><!-- Sign In Form -->
+		<form method="post" action="index.html">
+			<fieldset>
+			<legend>Sign In</legend>
+				<label for="username">Email</label>
+				<input type="text" name="username" id="username">
+				<label for="password">Password</label>
+				<input type="password" name="password" id="password">
+
+				<input type="submit" name="btnSignIn" id="btnSignIn" value="Sign In"><!-- Forgotten Password -->
+				<a href="#" class="center"><p>Forgot your password?</p></a>
+
+				<hr>
+
+				<h4 class="center">New to Cardcaptor Sakura?</h4><!-- Create an Account -->
+				<input type="button" name="btnCreateanAccount" id="btnCreateanAccount" value="Create an Account">
+			</fieldset>
+		</form>
+	</div>
+
+	<div class="grid-40 prefix-30 tablet-grid-50 tablet-prefix-25 mobile-grid-100 create"><!-- Create an Account Form -->
+		<form method="post" action="index.html">
+			<fieldset>
+			<legend>Create an Account</legend>
+				<label for="first">First Name</label>
+				<input type="text" name="first" id="first">
+				<label for="last">Last Name</label>
+				<input type="text" name="last" id="last">
+				<label for="email">Email</label>
+				<input type="email" name="email" id="email">
+				<label for="phone">Phone Number</label>
+				<input type="phone" name="phone" id="phone">
+				<label for="address">Address</label>
+				<input type="text" name="address" id="address">
+				<label for="username">Username</label>
+				<input type="text" name="username" id="username">
+				<label for="pass">Password</label>
+				<input type="password" name="pass" id="pass">
+				<label for="retypePass">Retype Password</label>
+				<input type="password" name="retypePass" id="retypePass">
+
+				<input type="checkbox" name="agree" id="agree">
+				<label for="agree">By creating an account, you confirm that you have read and agree to the <a href="#">Terms of Use</a> and <a href="#">Privacy Policy</a>.</label><br>
+
+				<input type="checkbox" name="subscribe" id="subscribe">
+				<label for="subscribe">Sign up to receive regular emails about new merchandise, special offers, exclusive events and more.</label>
+
+				<input type="submit" name="btnCreateAccount" id="btnCreateAccount" value="Create Account">
+			</fieldset>
+		</form>
+	</div>
+
+	<footer class="grid-40 prefix-30 tablet-grid-50 tablet-prefix-25 mobile-grid-100"><!-- Footer -->
+		<small>Copyright © 1996-2016 CARDCAPTORSAKURA.COM. All rights reserved.<br><a href="#">Terms of Use</a> | <a href="#">Privacy Policy</a></small>
+	</footer>
+
+</div>
+
+	<div class="bottom-bar"><!-- Bottom Bar -->
+		<img src="images/icon-phone.png"><img src="images/icon-email.png"><img src="images/icon-map.png"><img src="images/icon-check-out.png">
+	</div>
+
+</body>
+</html>
